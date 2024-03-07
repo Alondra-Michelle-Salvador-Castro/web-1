@@ -1,0 +1,56 @@
+h1 {
+color: rgb(162, 38, 223);
+background-color: beige;
+text-align: center;
+text-transform: uppercase;
+}
+.espaciobonito{
+    border: 1px;
+    border-radius: 10%;
+    background-color: rgb(212, 19, 246);
+    color: rgb(96, 28, 100);
+    height: 57px;
+    width: 150px;
+    font-size: 22px;
+    
+}
+.label1{
+    padding-right: 10px;
+    font-size: 30px;
+    color: rgb(98, 36, 119);
+
+    input{
+        font-size: 24px;
+        color: rgb(99, 57, 132);
+        background-color: bisque;
+    }
+}
+.label2{
+    padding-right: 24px;
+    font-size: x-large;
+    input{
+        font-size: 20px;
+        color: rgb(78, 29, 90);
+        background-color: rgb(217, 217, 217);
+
+    }
+}
+.label3{
+    font-size: 24px;
+    color: rgb(91, 28, 109);
+    background-color: #f8f4db;;
+}
+.label4{
+    padding-right: 24px;
+    font: caption;
+    font-size: 24px;
+    color: #0f0f00;
+
+    input{
+        font-size: 24px;
+
+        color: #0f0f00;
+        background-color: antiquewhite;
+    }
+
+}
