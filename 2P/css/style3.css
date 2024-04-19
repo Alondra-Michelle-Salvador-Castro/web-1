@@ -1,0 +1,19 @@
+.fondo{
+    color: white;
+    text-align: center;
+    background: url(https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.w{
+    width: 100%;
+}
+
+.radio{
+    width: 15px;
+    height: 15px;
+
+    border-radius: 50%;
+    padding: 0px;
+
+    overflow: hidden;
+}

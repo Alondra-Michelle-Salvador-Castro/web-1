@@ -1,0 +1,17 @@
+.fondo{
+    background-color: rgb(0, 207, 173);
+}
+
+.fd{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    color: white;
+}
+
+.input{
+    border-style: none;
+}
+
+span{
+    color: rgb(0, 207, 173);
+}

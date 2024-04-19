@@ -1,0 +1,23 @@
+.bg-nav{
+    color: white;
+    background-color: rgb(24, 0, 157);
+}
+
+.bg-i{
+    color: white;
+    background-color: rgb(62, 47, 151);
+}
+
+p{
+    color: rgb(62, 47, 151);
+}
+
+.input{
+    border-style: none;
+}
+
+.border-2{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
