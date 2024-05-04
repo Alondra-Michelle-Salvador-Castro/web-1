@@ -1,0 +1,38 @@
+.input{
+    border-style: none;
+    background-color: transparent;
+}
+
+.cajita{
+    padding: 10px;
+    background: transparent;
+    border-left: solid 2px rgb(94, 0, 31);
+    border-bottom: solid 2px rgb(94, 0, 31);
+    border-radius: 10px;
+}
+
+.cremita{
+    background-color: rgb(255, 250, 228);
+}
+
+.border-max{
+    border-radius: 70px;
+}
+
+.btn2{
+    border-radius: 5px;
+    border: 2px solid rgb(94, 0, 31);
+    background-color: transparent;
+}
+
+body{
+    background-color: rgb(235, 223, 255);
+}
+
+.nav{
+    background: linear-gradient(rgb(255, 107, 139), rgb(255, 11, 56));
+}
+
+img{
+    width: 100%;
+}

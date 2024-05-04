@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practica 9</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="css/style11.css">
+    <link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container-fluid p-0 m-0">
+
+        <div class="col-12 d-flex text-light nav px-2 align-items-center py-4">
+            <p class="mb-0">Inicio de sesión</p>
+            <p class="ms-4 mb-0">Registrarse</p>
+
+        </div>
+        <div class="col-12">
+            <div class="col text-center">
+
+                <p class="fs-4">Sistema de Gestión de Documentos Escolares</p>
+
+            </div>
+        </div>
+        <div class="col-12 mb-4">
+            <div class="row d-flex m-0 p-0">
+
+                <div class="col-sm-4">
+                    <div class="cajita2 mb-3 justify-content-center align-items-center d-flex">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <p class="ms-2 fs-4">REGISTRO DE ALUMNO</p>
+                    </div>
+
+                    <div class="card px-2 pt-3">
+                        <div class="card mb-4">
+                            <div class="row m-0 d-flex justify-content-center my-4">
+
+                                <div class="col-sm-3 d-flex justify-content-center mb-4">
+                                    <img src="img/tufotoaqui.png">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="input-group mb-2">
+                            <span class=" input-group-text">Tipo de Usuario: </span>
+                            <select class="form-select">
+                                <option value="">Alumno</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-8">
+                    <div class="cajita2 text-center mb-3">
+                        <p class="fs-4">INGRESE SUS DATOS PARA EL REGISTRO</p>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label class="form-label ps-2">Nombre</label>
+
+                                <input type="text" placeholder="Nombre empezando con mayúscula" class="form-control">
+                            </div>
+                            <div class="col-sm-4">
+                                <label class="form-label ps-2">Apellido Paterno</label>
+                                <input type="text" placeholder="Apellido empezando con mayúscula" class="form-control">
+                            </div>
+
+
+                            <div class="col-sm-4">
+                                <label class="form-label ps-2">Apellido Materno :</label>
+                                <input type="text" id="am" placeholder="Apellido empezando con mayúscula" class="form-control">
+                            </div>
+                            <div class="col-sm-6">
+                                <label class="form-label ps-2">Fecha de nacimiento :</label>
+                                <input type="date" placeholder="Fecha de nacimiento" class="form-control">
+                            </div>
+                            <div class="col-sm-6">
+                                <label class="form-label ps-2">Correo electrónico :</label>
+
+                                <input type="email" placeholder="Correo electrónico" class="form-control">
+                            </div>
+                            <div class="col-sm-4">
+                                <label class="form-label ps-2">CURP :</label>
+                                <input type="text" placeholder="CURP" class="form-control">
+                            </div>
+                            <div class="col-sm-8">
+                                <label class="form-label ps-2">Direccion :</label>
+                                <input type="text area" placeholder="Dirección" class="form-control">
+                            </div>
+
+                            <div class="col-sm-3">
+                                <label class="form-label ps-2">Teléfono :</label>
+                                <input type="text" placeholder="Teléfono" class="form-control">
+
+                            </div>
+                            <div class="col-sm-3">
+                                <label class="form-label ps-2">Facebook :</label>
+                                <input type="text" placeholder="Facebook" class="form-control">
+                            </div>
+                            <div class="col-sm-3">
+                                <label class="form-label ps-2">Twitter :</label>
+                                <input type="text" placeholder="Twitter" class="form-control">
+                            </div>
+                            <div class="col-sm-3 mb-3">
+                                <label class="form-label ps-2">Instagram :</label>
+                                <input type="text" placeholder="Instagram" class="form-control">
+
+
+                            </div>
+                            <div class="col-sm-5 col-sm-6 mb-2">
+                                <div class="input-group">
+                                    <span class="input-group-text">Especialidad :</span>
+                                    <select class="form-select">
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 mb-2">
+                                <div class="input-group">
+                                    <span class="input-group-text">grado :</span>
+
+                                    <select class="form-select">
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 mb-3">
+                                <div class="input-group"><span class="input-group-text">Grupo</span><select class="form-select">
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="input-group mb-3 px-3">
+                                <span class="input-group-text">Área</span>
+                                <input type="text" class="form-control">
+                                <span class="input-group-text">Turno</span>
+                                <select id="input-group-text" class="form-select">
+
+                                    <option value="Matutino">Matutino</option>
+                                    <option value="Vespertino">Vespertino</option>
+
+                                </select>
+                            </div>
+
+                            <div class="input-group mb-3 px-3">
+                                <span class="input-group-text">#</span>
+                                <input type="text" placeholder="Numero de Control" value="" class="form-control">
+                                <span class="input-group-text">IMPORTANTE</span>
+
+                            </div>
+                            <div class="col-sm-6 pt-3">
+
+                                <div class="input-group mb-3 px-3">
+                                    <span class="input-group-text">Contraseña</span>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6 pt-3">
+                                <div class="input-group mb-3 px-3">
+                                    <span class="input-group-text">Confirmar</span>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center mt-2 mb-2">
+                            <a href="practica9.html" class="btn btn-secondary text-white">Registro de Alumno</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-12">
+            <hr>
+        </div>
+    </div>
+  </body>
+</html>
