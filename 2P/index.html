@@ -3,16 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="boostrap/js/bootstrap.bundle.min.js"></script>
+    <title>Main</title>
 </head>
 <body>
-    <div class="row">
-        <div class="d-flex justify-content-center mt-5">
+    <div class="row m-0">
+        <div class="container d-flex barra align-items-center justify-content-between" style="background-color: #b0ff82;">
+            <div>
+                <img src="img/cbtis.png" alt="" style="height: 50px;">
+                <img src="img/20240607120044.png" alt="logo" style="height: 50px;">
+            </div>
+            <h1 class="my-0 ms-2">PRACTICAS</h1>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Michelle</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Practicas Link
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="practica1.html">Practica 1</a></li>
+                        <li><a class="dropdown-item" href="practica1.html">Practica 2</a></li>
+                        <li><a class="dropdown-item" href="practica1.html">Practica 3</a></li>
+                        <li><a class="dropdown-item" href="practica1.html">Practica 4</a></li>
+                        <li><a class="dropdown-item" href="practica1.html">Practica 5</a></li>
+                        <li><a class="dropdown-item" href="practica1.html">Practica 6</a></li>
+                        <li><a class="dropdown-item" href="practica1.html">Practica 7</a></li>
+                        <li><a class="dropdown-item" href="practica1.html">Practica 8</a></li>
+                        <li><a class="dropdown-item" href="practica1.html">Practica 9</a></li>
+                        <li><a class="dropdown-item" href="practica1.html">Practica 10</a></li>
+                        <li><a class="dropdown-item" href="practica1.html">Practica 11</a></li>
+                      </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" id="buscador" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" onclick="buscar()">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <div class="d-flex flex-wrap justify-content-center p-2 contenido" style="background-color: #eeeeee;">
             <div class="col-7">
-                <div class="card" >
-                    <ul class="list-group list-group-flush">
+                <div class="card shadow">
+                    <ul class="list-group list-group-flush" id="practicas">
                       <li class="list-group-item"><a href="practica1.html">practica 1</a></li>
                       <li class="list-group-item"><a href="practica2.html">practica 2</a></li>
                       <li class="list-group-item"><a href="practica3.html">practica 3</a></li>
@@ -27,8 +72,8 @@
                     </ul>
                   </div>
             </div>
-
         </div>
     </div>
+    <script src="js/index.js"></script>
 </body>
 </html>
